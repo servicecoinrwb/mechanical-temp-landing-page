@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <!-- Google tag (gtag.js) -->
+    <!-- Google tag (gtag.js) - Existing GA Script -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-0G63KLB2B0"></script>
     <script>
       window.dataLayer = window.dataLayer || [];
@@ -12,15 +12,28 @@
     </script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mechanical Temp | $50 OFF HVAC Service in Metro Detroit</title>
+    <!-- UPDATED TITLE for Winter SEO/Ad Relevance -->
+    <title>Mechanical Temp | Emergency Furnace & AC Repair in Metro Detroit | $50 OFF</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;900&display=swap" rel="stylesheet">
+    <!-- Font Awesome for Icons in the Trust Bar -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" xintegrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <style>
         body {
             font-family: 'Inter', sans-serif;
             background-color: #f8f9fa;
+            /* Ensures content starts below the sticky bar */
+            padding-top: 50px; 
+        }
+        .sticky-top-bar {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            z-index: 1000; /* High z-index to stay on top */
+            height: 50px;
         }
         .hero-bg {
             background-color: #0d2c4a;
@@ -30,17 +43,21 @@
         }
         .cta-button:hover {
             transform: scale(1.05);
+            box-shadow: 0 10px 20px rgba(0,0,0,0.2);
         }
         .offer-highlight {
-            background-color: #ffc107;
-            color: #212529;
+            /* Changed to a strong blue/cyan color for contrast against the dark background */
+            background-color: #17a2b8; 
+            color: white;
             padding: 2px 8px;
             border-radius: 4px;
-            font-weight: 700;
+            font-weight: 900;
         }
         .review-card {
             background: white;
-            border-left: 5px solid #dc3545;
+            /* Main brand red highlight */
+            border-left: 5px solid #dc3545; 
+            border-radius: 8px;
         }
     </style>
     <!-- Your existing Google Tracking Codes go here -->
@@ -61,42 +78,63 @@
 </head>
 <body class="bg-gray-100">
 
-    <!-- HERO SECTION - Offer First -->
+    <!-- STICKY TOP BAR - Always Visible Emergency CTA -->
+    <div class="sticky-top-bar flex items-center justify-center bg-red-600 text-white shadow-xl">
+        <p class="text-base md:text-xl font-extrabold tracking-tight">
+            🔥 HEAT OUT? CALL 24/7 EMERGENCY REPAIR: 
+            <a href="tel:313-282-4758" class="underline hover:text-yellow-300 ml-2">(313) 282-4758</a>
+        </p>
+    </div>
+
+    <!-- HERO SECTION - Winterized Offer Focus -->
     <header class="hero-bg text-white shadow-lg">
         <div class="container mx-auto px-6 py-12 text-center">
+            <!-- Logo remains -->
             <img src="https://images.squarespace-cdn.com/content/v1/64b8ce7983e67906ccb6616f/5b6094f5-caee-47d6-8b5e-9b762773f4c0/white_logo_transparent_background.png?format=2500w" alt="Mechanical Temp Logo" class="w-64 md:w-80 mx-auto mb-6">
+            
+            <!-- H1 Updated for Winter Urgency -->
             <h1 class="text-4xl md:text-6xl font-extrabold leading-tight mb-4">
-                Get <span class="offer-highlight">$50 OFF</span> Any Repair!
+                Emergency Furnace Repair <br class="sm:hidden"> In Metro Detroit TODAY!
             </h1>
+            
+            <!-- P Updated for Winter Focus and $50 Offer -->
             <p class="text-lg md:text-xl text-gray-300 max-w-3xl mx-auto mb-8">
-                Your furnace or AC fixed today by a trusted, family-owned business. Mention this ad to claim your discount.
+                Your reliable, family-owned HVAC experts are ready 24/7 to fix your heat. Book now and get 
+                <span class="offer-highlight">$50 OFF ANY REPAIR</span>.
             </p>
+            
             <div class="space-y-4 sm:space-y-0 sm:space-x-4">
+                 <!-- Primary CTA: Form Fill (High Conversion Goal) -->
                  <a href="#contact-form" class="cta-button inline-block bg-red-600 hover:bg-red-700 text-white font-bold rounded-lg text-xl px-12 py-4 shadow-xl">
-                    Claim Your $50 Discount
-                </a>
-                <a href="tel:313-282-4758" class="cta-button inline-block bg-transparent border-2 border-white hover:bg-white hover:text-blue-900 text-white font-bold rounded-lg text-xl px-12 py-4">
-                    Call Now: (313) 282-4758
-                </a>
+                     Claim Your $50 Discount Now
+                 </a>
+                 <!-- Secondary CTA: Phone Call (Urgent Goal) -->
+                 <a href="tel:313-282-4758" class="cta-button inline-block bg-transparent border-2 border-white hover:bg-white hover:text-blue-900 text-white font-bold rounded-lg text-xl px-12 py-4">
+                     Click to Call: (313) 282-4758
+                 </a>
             </div>
         </div>
     </header>
 
-    <!-- TRUST BAR SECTION -->
-    <section class="bg-white py-4 shadow-sm">
+    <!-- TRUST BAR SECTION - Enhanced with Icons -->
+    <section class="bg-white py-4 shadow-md">
         <div class="container mx-auto px-6">
             <div class="grid grid-cols-2 md:grid-cols-4 gap-4 text-center">
-                <div class="flex items-center justify-center p-2">
-                    <span class="font-bold text-gray-700">✅ 24/7 Emergency Service</span>
+                <div class="flex flex-col items-center justify-center p-2">
+                    <i class="fas fa-clock text-red-600 text-2xl mb-1"></i>
+                    <span class="font-bold text-gray-700 text-sm md:text-base">24/7 Emergency Service</span>
                 </div>
-                <div class="flex items-center justify-center p-2">
-                     <span class="font-bold text-gray-700">✅ Licensed & Insured</span>
+                <div class="flex flex-col items-center justify-center p-2">
+                    <i class="fas fa-certificate text-red-600 text-2xl mb-1"></i>
+                    <span class="font-bold text-gray-700 text-sm md:text-base">Licensed & Insured</span>
                 </div>
-                <div class="flex items-center justify-center p-2">
-                    <span class="font-bold text-gray-700">✅ Upfront Pricing</span>
+                <div class="flex flex-col items-center justify-center p-2">
+                    <i class="fas fa-dollar-sign text-red-600 text-2xl mb-1"></i>
+                    <span class="font-bold text-gray-700 text-sm md:text-base">Upfront Pricing</span>
                 </div>
-                 <div class="flex items-center justify-center p-2">
-                    <span class="font-bold text-gray-700">✅ Family Owned Since 2007</span>
+                <div class="flex flex-col items-center justify-center p-2">
+                    <i class="fas fa-home text-red-600 text-2xl mb-1"></i>
+                    <span class="font-bold text-gray-700 text-sm md:text-base">Family Owned Since 2007</span>
                 </div>
             </div>
         </div>
@@ -105,11 +143,11 @@
     <!-- MAIN CONTENT -->
     <main class="container mx-auto p-6 md:p-12">
         
-        <!-- TESTIMONIALS / SOCIAL PROOF -->
+        <!-- TESTIMONIALS / SOCIAL PROOF (Same great content) -->
         <section class="my-12">
             <h2 class="text-3xl font-bold text-center text-gray-800 mb-8">Trusted By Your Neighbors in Metro Detroit</h2>
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-                <!-- Review Card 1 -->
+                <!-- Review Card 1 (Furnace focus remains relevant) -->
                 <div class="review-card p-6 rounded-lg shadow-lg">
                     <div class="flex items-center mb-2">
                         <span class="text-yellow-400">★★★★★</span>
@@ -120,15 +158,15 @@
                 <!-- Review Card 2 -->
                 <div class="review-card p-6 rounded-lg shadow-lg">
                     <div class="flex items-center mb-2">
-                         <span class="text-yellow-400">★★★★★</span>
+                            <span class="text-yellow-400">★★★★★</span>
                     </div>
                     <p class="text-gray-600 mb-4">"Got my whole air conditioning system replaced at an unbeatable price. The crew was respectful of my property and did a clean, professional installation. A+ service from start to finish."</p>
                     <p class="font-bold text-gray-800">- Mark D., Troy</p>
                 </div>
                 <!-- Review Card 3 -->
                 <div class="review-card p-6 rounded-lg shadow-lg">
-                     <div class="flex items-center mb-2">
-                         <span class="text-yellow-400">★★★★★</span>
+                    <div class="flex items-center mb-2">
+                            <span class="text-yellow-400">★★★★★</span>
                     </div>
                     <p class="text-gray-600 mb-4">"I use their maintenance plan every year. It's affordable and gives me peace of mind knowing my system is ready for the season. Honest company that doesn't try to upsell you."</p>
                     <p class="font-bold text-gray-800">- Linda P., Royal Oak</p>
@@ -139,12 +177,14 @@
         <!-- CONTACT FORM SECTION -->
         <section id="contact-form" class="my-12 bg-white rounded-lg shadow-xl p-8 md:p-12">
             <div class="text-center">
-                <h2 class="text-3xl font-bold text-gray-800 mb-2">Schedule Service & Claim Your $50 Discount!</h2>
-                <p class="text-gray-600 mb-8">Fill out the form below or call us now. We'll get back to you right away.</p>
+                <!-- Title updated to reflect winter urgency -->
+                <h2 class="text-3xl font-bold text-gray-800 mb-2">Quickly Book Your Furnace Service & Claim Your $50 Discount!</h2>
+                <p class="text-gray-600 mb-8">Fill out the form below or call us now for immediate service. We'll get back to you right away.</p>
             </div>
             <div class="max-w-xl mx-auto">
-                 <form action="https://formspree.io/f/xldwzbal" method="POST">
-                    <input type="hidden" name="_next" value="https://promo.mechanicaltemp.com/thank-you.html"> <!-- UPDATE THIS URL WHEN YOU MOVE THE SITE -->
+                <!-- Formspree action and hidden fields remain intact -->
+                <form action="https://formspree.io/f/xldwzbal" method="POST">
+                    <input type="hidden" name="_next" value="https://promo.mechanicaltemp.com/thank-you.html"> 
                     <div class="mb-4">
                         <label for="name" class="block text-gray-700 font-semibold mb-2">Full Name</label>
                         <input type="text" id="name" name="name" class="w-full px-4 py-3 border rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500" required>
@@ -158,8 +198,9 @@
                         <input type="email" id="email" name="_replyto" class="w-full px-4 py-3 border rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500" required>
                     </div>
                     <div class="mb-4">
-                        <label for="message" class="block text-gray-700 font-semibold mb-2">How can we help?</label>
-                        <textarea id="message" name="message" rows="4" class="w-full px-4 py-3 border rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500" placeholder="e.g., 'My furnace isn't starting.'"></textarea>
+                        <label for="message" class="block text-gray-700 font-semibold mb-2">What is the problem?</label>
+                        <!-- Placeholder updated for heating urgency -->
+                        <textarea id="message" name="message" rows="4" class="w-full px-4 py-3 border rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500" placeholder="e.g., 'My furnace is blowing cold air' or 'My thermostat is blank.'"></textarea>
                     </div>
                     <button type="submit" class="cta-button w-full bg-red-600 hover:bg-red-700 text-white font-bold rounded-lg text-lg py-4">Get My $50 Discount Now!</button>
                 </form>
@@ -172,7 +213,8 @@
     <footer class="bg-blue-900 text-white">
         <div class="container mx-auto p-6 text-center">
             <p>&copy; 2024 Mechanical Temp. All Rights Reserved.</p>
-            <p class="text-sm text-gray-400 mt-2">Serving Southfield, Troy, Royal Oak, and the greater Metro Detroit area.</p>
+            <!-- Explicitly listing service areas for local SEO boost -->
+            <p class="text-sm text-gray-400 mt-2">Serving Southfield, Troy, Royal Oak, Dearborn, Warren, Novi, Canton, and the entire Metro Detroit area.</p>
         </div>
     </footer>
 
