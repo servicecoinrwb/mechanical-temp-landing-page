@@ -372,6 +372,15 @@
             <div class="max-w-xl mx-auto">
                 <form action="https://formspree.io/f/xldwzbal" method="POST">
                     <input type="hidden" name="_next" value="https://promo.mechanicaltemp.com/thank-you.html"> 
+                    <input type="hidden" name="source_page" value="Universal Landing">
+                    <!-- Ad attribution fields - auto-populated by script at end of page -->
+                    <input type="hidden" name="utm_source" id="utm_source">
+                    <input type="hidden" name="utm_medium" id="utm_medium">
+                    <input type="hidden" name="utm_campaign" id="utm_campaign">
+                    <input type="hidden" name="utm_content" id="utm_content">
+                    <input type="hidden" name="utm_term" id="utm_term">
+                    <input type="hidden" name="gclid" id="gclid">
+                    <input type="hidden" name="referrer" id="referrer">
                     <div class="mb-4">
                         <label for="name" class="block text-gray-700 font-semibold mb-2">Full Name</label>
                         <input type="text" id="name" name="name" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-amber-500 focus:border-transparent" required>
@@ -411,5 +420,19 @@
         </div>
     </footer>
 
+
+    <!-- Capture UTM params, gclid, and referrer for ad attribution -->
+    <script>
+        (function() {
+            var params = new URLSearchParams(window.location.search);
+            var keys = ['utm_source','utm_medium','utm_campaign','utm_content','utm_term','gclid'];
+            keys.forEach(function(name) {
+                var el = document.getElementById(name);
+                if (el) el.value = params.get(name) || '';
+            });
+            var ref = document.getElementById('referrer');
+            if (ref) ref.value = document.referrer || '';
+        })();
+    </script>
 </body>
 </html>
