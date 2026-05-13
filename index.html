@@ -34,7 +34,6 @@
             height: 50px;
         }
         .hero-bg {
-            /* Kept professional dark blue but optimized for cooling theme */
             background-color: #0d2c4a;
         }
         .cta-button {
@@ -53,11 +52,11 @@
         }
         .review-card {
             background: white;
-            border-left: 5px solid #007bff; /* Shifted to blue for cooling season */
+            border-left: 5px solid #007bff; /* Blue for cooling season */
             border-radius: 8px;
         }
     </style>
-    <!-- Your existing Google Tracking Codes -->
+    <!-- Google Tracking Codes -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=AW-11260644372"></script>
     <script>
       window.dataLayer = window.dataLayer || [];
@@ -74,7 +73,7 @@
 </head>
 <body class="bg-gray-100">
 
-    <!-- STICKY TOP BAR - Updated for Cooling Urgency -->
+    <!-- STICKY TOP BAR -->
     <div class="sticky-top-bar flex items-center justify-center bg-blue-600 text-white shadow-xl">
         <p class="text-base md:text-xl font-extrabold tracking-tight">
             ❄️ AC NOT COOLING? CALL 24/7 EMERGENCY REPAIR: 
@@ -82,10 +81,21 @@
         </p>
     </div>
 
-    <!-- HERO SECTION - Summerized Offer Focus -->
+    <!-- HERO SECTION -->
     <header class="hero-bg text-white shadow-lg">
         <div class="container mx-auto px-6 py-12 text-center">
-            <img src="https://images.squarespace-cdn.com/content/v1/64b8ce7983e67906ccb6616f/5b6094f5-caee-47d6-8b5e-9b762773f4c0/white_logo_transparent_background.png?format=2500w" alt="Mechanical Temp Logo" class="w-64 md:w-80 mx-auto mb-6">
+            
+            <!-- FIXED LOGO: SVG Implementation for 100% Reliability -->
+            <div class="flex items-center justify-center mb-6">
+                <svg class="h-16 md:h-20" viewBox="0 0 500 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <!-- Modern Icon Part -->
+                    <path d="M60 30L30 60L60 90H100L130 60L100 30H60Z" fill="#17a2b8" />
+                    <circle cx="80" cy="60" r="15" fill="white" fill-opacity="0.2" />
+                    <!-- Text Part -->
+                    <text x="150" y="65" font-family="Inter" font-weight="900" font-size="42" fill="white">MECHANICAL</text>
+                    <text x="150" y="100" font-family="Inter" font-weight="400" font-size="32" fill="#17a2b8" letter-spacing="4">TEMP</text>
+                </svg>
+            </div>
             
             <!-- H1 Updated for Summer Urgency -->
             <h1 class="text-4xl md:text-6xl font-extrabold leading-tight mb-4">
@@ -136,11 +146,10 @@
     <!-- MAIN CONTENT -->
     <main class="container mx-auto p-6 md:p-12">
         
-        <!-- TESTIMONIALS - Prioritized AC Review -->
+        <!-- TESTIMONIALS -->
         <section class="my-12">
             <h2 class="text-3xl font-bold text-center text-gray-800 mb-8">Trusted By Your Neighbors in Metro Detroit</h2>
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-                <!-- Review Card 1 (AC Focus) -->
                 <div class="review-card p-6 rounded-lg shadow-lg">
                     <div class="flex items-center mb-2">
                         <span class="text-yellow-400">★★★★★</span>
@@ -148,7 +157,6 @@
                     <p class="text-gray-600 mb-4">"Got my whole air conditioning system replaced at an unbeatable price. The crew was respectful of my property and did a clean, professional installation. A+ service from start to finish."</p>
                     <p class="font-bold text-gray-800">- Mark D., Troy</p>
                 </div>
-                <!-- Review Card 2 -->
                 <div class="review-card p-6 rounded-lg shadow-lg">
                     <div class="flex items-center mb-2">
                         <span class="text-yellow-400">★★★★★</span>
@@ -156,7 +164,6 @@
                     <p class="text-gray-600 mb-4">"Mechanical Temp was a lifesaver! Our unit went out during a heatwave and their technician was here within an hour. Fast, and very fair pricing. Highly recommend!"</p>
                     <p class="font-bold text-gray-800">- Sarah J., Southfield</p>
                 </div>
-                <!-- Review Card 3 -->
                 <div class="review-card p-6 rounded-lg shadow-lg">
                     <div class="flex items-center mb-2">
                         <span class="text-yellow-400">★★★★★</span>
