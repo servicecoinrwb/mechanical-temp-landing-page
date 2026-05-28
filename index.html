@@ -151,20 +151,18 @@
     <header class="hero-bg text-white shadow-lg relative">
         <div class="container mx-auto px-6 py-14 md:py-20 text-center relative z-10">
             <!-- LOGO: image with graceful text-logo fallback if the URL ever breaks -->
-            <div class="mb-4">
+            <div class="mb-8">
                 <img 
-                    src="https://imageview.mechanicaltemp.com/objects/uploads/logo-placeholder"
+                    src="https://raw.githubusercontent.com/servicecoinrwb/mt-assets/main/logos/white/text/white_textlogo_transparent_background.png"
                     alt="Mechanical Temp - Heating and Cooling" 
                     class="w-64 md:w-80 mx-auto"
                     onerror="this.style.display='none'; document.getElementById('logo-fallback').style.display='inline-flex';">
-                <div id="logo-fallback" class="text-logo">
+                <div id="logo-fallback" class="text-logo" style="display:none;">
                     <div class="brand">Mechanical<span class="accent">&middot;</span>Temp</div>
                     <div class="tagline">HEATING &middot; COOLING &middot; SINCE 2007</div>
                 </div>
             </div>
 
-            <!-- VISIBLE BRAND NAME AS REAL TEXT (for Google business-name relevance / domain match) -->
-            <p class="text-xl md:text-2xl font-bold tracking-wide text-white mb-3">Mechanical Temp</p>
 
             <!-- H1 - Universal heating + cooling -->
             <h1 class="text-4xl md:text-6xl font-extrabold leading-tight mb-5">
